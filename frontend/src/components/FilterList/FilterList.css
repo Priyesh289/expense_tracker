@@ -1,0 +1,34 @@
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x:scroll;
+    min-height: 8vh;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-item{
+    background-color:rgb(226, 223, 223) ;
+    padding: 10px 20px;
+    border-radius: 15px;   
+}
+.activeCategory p{
+  padding: 10px 20px;
+  border-radius: 15px;  
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;  
+}
+.explore-menu-list-item p{
+    background-color:rgb(226, 223, 223) ;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+

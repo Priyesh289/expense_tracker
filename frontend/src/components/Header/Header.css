@@ -1,0 +1,25 @@
+.header{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+.menuBox{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.menuBox p{
+    font-size:1.5rem;
+    align-items:center
+}
+.menuIcon{
+    font-size: 1.6rem;
+}
+.profileImg{
+    margin-top: 8px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0.7rem;
+}

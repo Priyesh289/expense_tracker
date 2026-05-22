@@ -1,0 +1,62 @@
+/* DateNote.css */
+
+.dateNoteContainer {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+ 
+  position: relative;
+  overflow: visible;
+
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: .8px;
+
+   overflow: visible;
+  position: relative;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.inputField {
+  
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+
+}
+
+.inputField:focus {
+  border-color: #3b82f6;
+}
+.calendarIcon {
+
+  position: absolute;
+  right: 15px;
+  top: 70%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+}
+
+
+.datepicker {
+  width: 100%;
+  padding: 14px 40px 14px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+}

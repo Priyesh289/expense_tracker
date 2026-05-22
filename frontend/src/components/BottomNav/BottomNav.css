@@ -1,0 +1,42 @@
+.containerNav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.bottomNav{
+    margin-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+}
+
+.navIcon{
+  font-size: 1.9rem;
+
+  color: rgb(51, 48, 48);
+
+  width: 2.5rem;
+  height: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 1rem;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+.activeNav{
+  width:2.5rem;
+  font-size:1.6rem;
+
+  background-color: black;
+  border-radius: 1.2rem;
+  
+ 
+}

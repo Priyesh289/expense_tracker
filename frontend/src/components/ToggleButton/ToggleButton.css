@@ -1,0 +1,36 @@
+/* ToggleButton.css */
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.toggleContainer {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+ background-color:rgb(226, 223, 223) ;
+  padding: 5px;
+  border-radius: 2px;
+  gap: 5px;
+}
+
+.toggleBtn,
+.activeBtn {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.toggleBtn {
+  background: transparent;
+  color: black;
+}
+
+.activeBtn {
+  background-color: white;
+  color: black;
+}
