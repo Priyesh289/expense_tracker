@@ -1,6 +1,6 @@
 import foodSign from './foodSign.png'
 import shopping_bag from './shopping_bag.png'
-import health_Sign from './health_sign.png'
+import health_sign from './health_Sign.png'
 import bills_sign from './bills_sign.png'
 import movie_sign from './movie_sign.png'
 import rent_sign from './rent_sign.png'
@@ -39,7 +39,7 @@ export const expensesCategoty = [
     {
         id: 5,
         name: "Health",
-        img: health_Sign
+        img: health_sign
     },
     {
         id: 6,
