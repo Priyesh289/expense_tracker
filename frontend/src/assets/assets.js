@@ -8,14 +8,14 @@ import travel_sign from './travel_sign.png'
 import others_sign from './others_sign.png'
 import calendar from './calendar.png'
 
-export const assets={
-calendar
+export const assets = {
+    calendar
 }
 export const expensesCategoty = [
     {
         id: 0,
         name: 'All',
-        
+
     }, {
         id: 1,
         name: 'Food',
